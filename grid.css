@@ -1,0 +1,378 @@
+body{
+    background-image: linear-gradient(red,blue);
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    height: 650px;
+    width: 1270px;
+    background-color: black;
+    gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.firstbox {
+  display: grid;
+  border: 1px solid;
+  width: 383px;
+  height: 170px;
+  grid-template-columns: 125px 125px 125px;
+  padding: 9px;
+  gap: 5px;
+  background-color: rgb(35, 35, 85);
+  margin: 8px;
+}
+.first .second {
+  border: 1px solid;
+}
+.first1 {
+  background-color: red;
+}
+.first2 {
+  background-color: chocolate;
+}
+.first3 {
+  background-color: coral;
+}
+.first4 {
+  background-color: darkgreen;
+}
+.first5 {
+  background-color: darkolivegreen;
+}
+.first6 {
+  background-color: crimson;
+}
+/* ------------------------------------------------- */
+.secondbox {
+  display: grid;
+  border: 1px solid;
+  width: 383px;
+  height: 170px;
+  margin: 8px;
+  padding: 9px;
+  grid-template-columns: 125px 125px 125px;
+  background-color: rgb(35, 35, 85);
+  gap: 5px;
+}
+.second1 {
+  background-color: red;
+  grid-column: 1/3;
+}
+.second2 {
+  background-color: chocolate;
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+.second3 {
+  background-color: coral;
+}
+.second4 {
+  background-color: darkgreen;
+}
+.thirdbox {
+  display: grid;
+  border: 1px solid;
+  width: 383px;
+  height: 170px;
+  margin: 8px;
+  padding: 9px;
+  /* grid-template-columns: 125px 125px; */
+  /* grid-template-rows: auto auto auto; */
+  background-color: rgb(35, 35, 85);
+  gap: 5px;
+}
+.third1 {
+  background-color: red;
+  grid-column: 1/4;
+}
+.third2 {
+  background-color: coral;
+}
+.third3 {
+  background-color: coral;
+  grid-column: 2/4;
+}
+.third4 {
+  background-color: darkgreen;
+  grid-column: 1/4;
+}
+.fourthbox {
+  display: grid;
+  border: 1px solid;
+  width: 383px;
+  height: 170px;
+  margin: 8px;
+  padding: 9px;
+  /* grid-template-columns: auto auto auto; */
+  grid-template-rows: auto auto auto;
+  background-color: rgb(35, 35, 85);
+  gap: 5px;
+}
+.fourth1 {
+  background-color: red;
+  grid-column: 1/3;
+  height: 55px;
+}
+.fourth2 {
+  background-color: chocolate;
+  grid-column: 3/5;
+  height: 55px;
+}
+.fourth3 {
+  background-color: coral;
+}
+.fourth4 {
+  background-color: darkgreen;
+  grid-column: 2/5;
+  height: 65px;
+}
+.fourth5 {
+  background-color: darkolivegreen;
+  grid-column: 1/5;
+  height: 40px;
+}
+.fifthbox {
+  display: grid;
+  border: 1px solid;
+  width: 383px;
+  height: 170px;
+  margin: 8px;
+  padding: 9px;
+  /* grid-template-columns: auto auto auto; */
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: rgb(35, 35, 85);
+  gap: 5px;
+}
+.fifth1 {
+  background-color: rgb(41, 150, 41);
+}
+.fifth2 {
+  background-color: chocolate;
+}
+.fifth3 {
+  background-color: darkcyan;
+}
+.fifth4 {
+  background-color: blue;
+}
+.fifth5 {
+  background-color: blue;
+}
+
+.fifth6 {
+  background-color: rgb(41, 150, 41);
+}
+.fifth7 {
+  background-color: chocolate;
+}
+.fifth8 {
+  background-color: darkcyan;
+}
+.fifth9 {
+  background-color: blue;
+}
+.fifth10 {
+  background-color: blue;
+}
+.fifth11 {
+  background-color: rgb(41, 150, 41);
+}
+.fifth12 {
+  background-color: chocolate;
+}
+.fifth13 {
+  background-color: darkcyan;
+}
+.fifth14 {
+  background-color: rgb(41, 150, 41);
+}
+.fifth15 {
+  background-color: chocolate;
+}
+.fifth16 {
+  background-color: darkcyan;
+}
+.fifth15 {
+  background-color: chocolate;
+}
+.fifth17 {
+  background-color: darkcyan;
+}
+.fifth18 {
+  background-color: darkcyan;
+}
+.sixthbox {
+  display: grid;
+  border: 1px solid;
+  width: 383px;
+  height: 170px;
+  margin: 8px;
+  padding: 9px;
+  /* grid-template-columns: auto auto auto; */
+  grid-template-columns: repeat(4, 1fr);
+  background-color: rgb(35, 35, 85);
+  gap: 5px;
+}
+.sixth1 {
+  background-color: rgb(41, 150, 41);
+  grid-column: 1/3;
+}
+.sixth2 {
+  background-color: chocolate;
+}
+.sixth3 {
+  background-color: darkcyan;
+}
+.sixth4 {
+  background-color: blue;
+}
+.sixth5 {
+  background-color: blue;
+}
+
+.sixth6 {
+  background-color: rgb(41, 150, 41);
+}
+.sixth8 {
+  background-color: chocolate;
+  grid-column: 1/3;
+  grid-row: 3/5;
+}
+.sixth9 {
+  background-color: darkcyan;
+}
+.sixth10 {
+  background-color: blue;
+}
+.sixth11 {
+  background-color: blue;
+}
+.sixth13 {
+  background-color: rgb(41, 150, 41);
+  grid-column: 1/4;
+}
+.sixth14 {
+  background-color: chocolate;
+}
+.seventhbox {
+  display: grid;
+  border: 1px solid;
+  width: 383px;
+  height: 170px;
+  margin: 8px;
+  padding: 9px;
+  /* grid-template-columns: auto auto auto; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: rgb(35, 35, 85);
+  gap: 5px;
+}
+.seven1 {
+  background-color: rgb(41, 150, 41);
+  grid-column: 1/3;
+  height: 50px;
+}
+.seven2 {
+  background-color: chocolate;
+  grid-column: 3/5;
+  height: 50px;
+}
+.seven3 {
+  background-color: darkcyan;
+  grid-column: 1/3;
+  grid-row: 2/5;
+}
+.seven4 {
+  background-color: blue;
+  grid-column: 3/5;
+  grid-row: 2/5;
+  grid-template-columns: auto auto;
+  display: grid;
+  padding: 5px;
+  gap: 5px;
+}
+
+.seven5 {
+  background-color: burlywood;
+  grid-column: 1/3;
+}
+.seven6 {
+  background-color: aqua;
+}
+.seven7 {
+  background-color: aquamarine;
+}
+.eightbox {
+  display: grid;
+  border: 1px solid;
+  width: 383px;
+  height: 170px;
+  margin: 8px;
+  padding: 9px;
+  background-color: rgb(35, 35, 85);
+  gap: 5px;
+  grid-template-columns: repeat(5, 1fr);
+}
+.eight1 {
+  background-color: rgb(41, 150, 41);
+}
+.eight2 {
+  background-color: chocolate;
+}
+.eight3 {
+  background-color: darkcyan;
+}
+.eight4 {
+  background-color: blue;
+}
+.eight5 {
+  background-color: blue;
+}
+
+.eight6 {
+  background-color: rgb(41, 150, 41);
+}
+.eight7 {
+  background-color: chocolate;
+}
+.eight8 {
+  background-color: chartreuse;
+  grid-column: 3/6;
+}
+.eight9 {
+  background-color: blueviolet;
+  grid-column: 1/6;
+}
+.ninebox {
+  display: grid;
+  width: 383px;
+  height: 170px;
+  background-color: rgb(35, 35, 85);
+  padding: 9px;
+  margin: 8px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.nine1 {
+  background-color: cornflowerblue;
+  grid-column: 1/5;
+  height: 45px;
+}
+.nine2 {
+  background-color: darkcyan;
+  grid-row: 2/4;
+}
+.nine3 {
+  background-color: crimson;
+  grid-column: 2/4;
+}
+.nine4 {
+  background-color: rgb(218, 123, 0);
+  grid-column: 2;
+}
+.nine5 {
+  background-color: darkred;
+}
